@@ -21,7 +21,7 @@ make autotools
 #编译
 ![image](https://github.com/cheese-Ji/Linux-test/assets/155931600/314e65f8-2114-42b1-8562-8ec8c8a339cb)
 
-**./configure**
+./configure
 #配置文件，现在您可以继续编译并运行单个测试或编译并安装整个测试套件。
 ![image](https://github.com/cheese-Ji/Linux-test/assets/155931600/bf08e3b4-a7e1-48c8-be06-6b3d0f327dd1)
 
