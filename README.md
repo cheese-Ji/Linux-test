@@ -1,5 +1,5 @@
 # Linux-test
-···
+···shell
    git clone https://github.com/linux-test-project/ltp.git
 ···
 #Linux-text-projet安装
