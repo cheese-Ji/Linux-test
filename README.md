@@ -62,6 +62,25 @@ vim result.log
 ```
 ![image](https://github.com/cheese-Ji/Linux-test/assets/155931600/0f65acc8-5bcc-4d2b-860a-5723897ca291)
 
+2.运行一部分testcase
+```
+ cd /opt/ltp/runtest
+ vim your_command_file(your_command_file是自定义文件名）
+```
+如运行以下四个用例，命令文件由两部分组成，一是test case标签“tag",另一个是你希望执行的具体的"test case"脚本名以及一些参数：
+
+![image](https://github.com/cheese-Ji/Linux-test/assets/155931600/8b2018b8-3938-41f2-b4ad-501141052b43)
+
+运行用例，保存到result.02.log中
+
+```
+./runltp -p -l result.02.log -f your_command_file
+```
+![image](https://github.com/cheese-Ji/Linux-test/assets/155931600/3bb0abd2-923d-4404-b9bf-d5fd46f2f31a)
+
+运行结果如下：
+![image](https://github.com/cheese-Ji/Linux-test/assets/155931600/2e343974-dd28-414f-89f8-a30af3f3ca84)
 
 
+ 
 
