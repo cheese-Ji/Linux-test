@@ -1,0 +1,5 @@
+未编译前目录含义
+
+autom4te.cache（加快autotool生成Makefiles的速度）
+doc (ltp介绍和使用说明)
+include （ltp执行框架头文件）
