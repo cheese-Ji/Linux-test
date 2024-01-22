@@ -1,5 +1,21 @@
 未编译前目录含义
-
 autom4te.cache（加快autotool生成Makefiles的速度）
 doc (ltp介绍和使用说明)
 include （ltp执行框架头文件）
+lib （ltp执行框架代码）
+m4
+pan
+runtest （ltp执行用例列表）
+scenario_groups
+scripts（脚本文件）
+testcases （ltp用例代码目录，其中包含commands表示command测试用例；kernel表示内核测试用例；lib是用例公共函数）
+testscripts （ltp的各种框架执行命令，比如里面有压力测试脚本，编译不需要，执行用例调用）
+tools
+utils （其他内核工具）
+
+编译后二进制目录
+bin
+runtest
+scenario_groups
+testcases （用例可执行二进制）
+testscripts
