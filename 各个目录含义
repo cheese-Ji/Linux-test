@@ -2,15 +2,16 @@
 autom4te.cache（加快autotool生成Makefiles的速度）
 doc (ltp介绍和使用说明)
 include （ltp执行框架头文件）
-lib （ltp执行框架代码）
+lib （ltp执行框架代码,通用的函数目录）
 m4
-pan
-runtest （ltp执行用例列表）
+pan（测试的驱动装置，具备随机和并行测试能力）
+runtest （ltp执行用例列表，为自动化测试提供命令列表）
 scenario_groups
 scripts（脚本文件）
-testcases （ltp用例代码目录，其中包含commands表示command测试用例；kernel表示内核测试用例；lib是用例公共函数）
-testscripts （ltp的各种框架执行命令，比如里面有压力测试脚本，编译不需要，执行用例调用）
-tools
+testcases （ltp用例代码目录，其中包含commands表示常用测试用例；kernel表示内核测试用例；lib是用例公共函数；
+network网络测试；realtime实时性测试；open_posix_testsuite表示posix标准测试；kdump内核崩溃转储测试；misc崩溃、核心转出、浮点运算等测试）
+testscripts （存放各种分组的测试脚本，比如里面有压力测试脚本，编译不需要，执行用例调用）
+tools（存放自动化测试脚本和辅助工具）
 utils （其他内核工具）
 
 编译后二进制目录
