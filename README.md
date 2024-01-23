@@ -85,13 +85,18 @@ vim result.log
 
 ## 测试结果输出类型：
 1.BROK :测试执行中途发生错误而使测试遭到破坏
+
 2.CONF :测试环境不满足而跳过执行
+
 3.WARN :测试中途发生异常
+
 4.INFO :输出通用测试信息
+
 5.PASS :成功
+
 6.FAIL :失败
 
- 查看自己Linux内核版本：
+ ## 查看自己Linux内核版本：
  ```
 cat /proc/version
 ```
