@@ -17,5 +17,5 @@ utils （其他内核工具）
 bin
 runtest
 scenario_groups
-testcases （用例可执行二进制）
+testcases （/bin用例可执行二进制）
 testscripts
