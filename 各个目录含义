@@ -15,8 +15,10 @@ tools（存放自动化测试脚本和辅助工具）
 utils （其他内核工具）
 
 编译后二进制目录
-bin
-runtest
+bin（存放测试的一些辅助脚本）
+runtest（用于链接testscripts内的测试脚本和testcase测试项目）
 scenario_groups
-testcases （/bin用例可执行二进制）
+testcases （其中/bin中是用例可执行二进制）
 testscripts
+share(脚本使用说明）
+results(测试结果默认的存储目录）
