@@ -79,6 +79,7 @@ vim result.log
 ![image](https://github.com/cheese-Ji/Linux-test/assets/155931600/3bb0abd2-923d-4404-b9bf-d5fd46f2f31a)
 
 运行结果如下：
+
 ![image](https://github.com/cheese-Ji/Linux-test/assets/155931600/2e343974-dd28-414f-89f8-a30af3f3ca84)
 
 
