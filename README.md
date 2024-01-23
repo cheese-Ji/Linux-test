@@ -52,7 +52,8 @@ make install
  ```
 ![image](https://github.com/cheese-Ji/Linux-test/assets/155931600/279c62cb-bebe-4535-9800-9551f53d6bee)
 
-全部执行大概需要2-3小时，执行结果存放在/opt/ltp/results文件夹中，文件名为result.log
+全部执行大概需要2-3小时，执行结果存放在/opt/ltp/results文件夹中，文件名为result.log（此时运行的runltp会生成指定的测试列表并调用测试驱动
+Pan来测试，最后对每个测试用例的执行结果进行统计，整体测试结果返回给runltp）
 
 查看结果
 
@@ -82,6 +83,12 @@ vim result.log
 
 ![image](https://github.com/cheese-Ji/Linux-test/assets/155931600/2e343974-dd28-414f-89f8-a30af3f3ca84)
 
-
+## 测试结果输出类型：
+1.BROK :测试执行中途发生错误而使测试遭到破坏
+2.CONF :测试环境不满足而跳过执行
+3.WARN :测试中途发生异常
+4.INFO :输出通用测试信息
+5.PASS :成功
+6.FAIL :失败
  
 
