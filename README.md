@@ -90,5 +90,11 @@ vim result.log
 4.INFO :输出通用测试信息
 5.PASS :成功
 6.FAIL :失败
- 
+
+ 查看自己Linux内核版本：
+ ```
+cat /proc/version
+```
+
+![image](https://github.com/cheese-Ji/Linux-test/assets/155931600/58c701ba-c8e7-4e51-bfa9-3b11da06228b)
 
