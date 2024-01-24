@@ -1,0 +1,25 @@
+```
+uname -r
+```
+查看当前内核版本
+
+```
+apt install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison dwarves
+```
+安装依赖
+
+```
+wget https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.6.tar.xz
+```
+下载Linux6.6内核版本
+
+```
+ tar -xvf linux-6.6.6.tar.xz
+```
+解压
+
+```
+make menuconfig 
+```
+启动配置界面，由于我第一次接触，我选择直接保存
+
